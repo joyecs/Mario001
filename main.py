@@ -2,6 +2,7 @@ from source import tools, setup
 from source.states import main_menu
 def main():
     game = tools.Game()
+    print(game) 
     state = main_menu.MainMenu()
     game.run(state)
 
